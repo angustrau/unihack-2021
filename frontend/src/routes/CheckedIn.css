@@ -1,0 +1,36 @@
+.checkedin-body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(0.2deg, #FFFFFF -20.32%, rgba(255, 255, 255, 0) 36.03%), #005C9B;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkedin-card {
+  width: 90%;
+  max-width: 400px;
+  height: 800px;
+  max-height: 90%;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkedin-title {
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 20px;
+  font-size: 40px;
+
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
